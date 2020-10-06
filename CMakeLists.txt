@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(FetchContent)
 
 FetchContent_Declare(json
-  GIT_REPOSITORY https://github.com/ArthurSonzogni/nlohmann_json_cmake_fetchcontent
+  GIT_REPOSITORY https://github.com/nlohmann/json.git
   GIT_TAG v3.7.3)
 
 FetchContent_GetProperties(json)
@@ -17,6 +17,5 @@ if(NOT json_POPULATED)
   add_subdirectory(${json_SOURCE_DIR} ${json_BINARY_DIR} EXCLUDE_FROM_ALL)
 endif()
 
-target_link_libraries(foo PRIVATE nlohmann_json::nlohmann_json)
-
-add_executable(Akinator main.cpp)
+add_executable(Akinator src/main.cpp)
+target_link_libraries(Akinator PRIVATE nlohmann_json::nlohmann_json)
