@@ -11,3 +11,10 @@ CTestTestfile.cmake
 _deps
 build/*
 !build/.keep
+project/proj.cmake/build/Akinator
+
+project/proj.cmake/build/Akinator.cbp
+
+project/proj.cmake/build/oxygine-framework/liboxygine-framework.a
+
+project/proj.cmake/build/oxygine-framework/OXYGINE.cbp
