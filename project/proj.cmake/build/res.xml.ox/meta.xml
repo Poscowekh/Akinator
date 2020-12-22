@@ -1,0 +1,1 @@
+<resources version="2"><set/><atlas><atlas file="1_0.png" format="r8g8b8a8" h="1024" w="1024"/><image fs="1,1,280,280,1.000000">0,2,646,64,23,129,212;</image><image fs="1,1,1024,350,1.000000">0,2,2,51,35,926,285;</image><image fs="1,1,400,400,1.000000">0,2,291,25,26,352,351;</image></atlas><set/><font sf="1" size="32"/><font sf="1" size="24"/></resources>

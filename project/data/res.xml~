@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "images" />
+	<atlas>
+		<image file="Fortress.png" cols = "8" />
+		<image file="Huscarl_move.png" cols = "12" />		
+		<image file="Huscarl_attack.png" cols = "10" />
+		<image file="Berserk_move.png" cols = "12" />		
+		<image file="Berserk_attack.png" cols = "10" />
+
+		<image file="Berserk_Icon.png"/>
+		<image file="Huscarl_Icon.png"/>
+		<image file="button.png"/>		
+
+	<set path = "images/Map" />
+		<image file="ground.png"/>
+		<image file="back2.png"/>
+		<image file="Menu.png"/>
+	</atlas>
+	<set path = "fonts" />
+	<font file="main.fnt" />	
+</resources>
